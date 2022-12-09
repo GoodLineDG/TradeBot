@@ -10,7 +10,6 @@ from kivymd.uix.boxlayout import MDBoxLayout
 from kivymd.uix.button import MDFlatButton
 from kivymd.uix.datatables import MDDataTable
 from kivymd.uix.dialog import MDDialog
-from kivymd.uix.label import MDLabel
 
 screen_menu = """
 ScreenManager:
@@ -372,8 +371,8 @@ class Manual_end(Screen):
                                  size_hint=(0.9, 0.6),
                                  rows_num=10,
                                  column_data=[
-                                     ("День", dp(15)),
-                                     ("Стоимость актива", dp(15)),
+                                     ("Номер акции (x)", dp(15)),
+                                     ("Стоимость акции (y)", dp(15)),
                                      ("x-x(ср)", dp(15)),
                                      ("y-y(ср)", dp(20)),
                                      ("(x-x(ср))(y-y(ср))", dp(30)),
@@ -462,8 +461,8 @@ class Manual_reb(Screen):
                                       size_hint=(0.9, 0.6),
                                       rows_num=10,
                                       column_data=[
-                                          ("День", dp(15)),
-                                          ("Стоимость актива", dp(15)),
+                                          ("Номер акции (x)", dp(15)),
+                                          ("Стоимость акции (y)", dp(15)),
                                           ("x-x(ср)", dp(15)),
                                           ("y-y(ср)", dp(20)),
                                           ("(x-x(ср))(y-y(ср))", dp(30)),
@@ -620,8 +619,8 @@ class Auto_end(Screen):
                                       size_hint=(0.9, 0.6),
                                       rows_num=10,
                                       column_data=[
-                                          ("День", dp(15)),
-                                          ("Стоимость актива", dp(15)),
+                                          ("Номер акции (x)", dp(15)),
+                                          ("Стоимость акции (y)", dp(15)),
                                           ("x-x(ср)", dp(15)),
                                           ("y-y(ср)", dp(20)),
                                           ("(x-x(ср))(y-y(ср))", dp(30)),
@@ -720,8 +719,8 @@ class Auto_reb(Screen):
                                       size_hint=(0.9, 0.6),
                                       rows_num=10,
                                       column_data=[
-                                          ("День", dp(15)),
-                                          ("Стоимость актива", dp(15)),
+                                          ("Номер акции (x)", dp(15)),
+                                          ("Стоимость акции (y)", dp(15)),
                                           ("x-x(ср)", dp(15)),
                                           ("y-y(ср)", dp(20)),
                                           ("(x-x(ср))(y-y(ср))", dp(30)),
